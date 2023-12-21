@@ -1,0 +1,7 @@
+.btn {
+  @apply px-[16px] py-[12px] rounded-[10px] text-sm font-medium transition hover:bg-base focus:shadow-lg;
+
+  &.btn--primary {
+    @apply bg-primary text-white;
+  }
+}

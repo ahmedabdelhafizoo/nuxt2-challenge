@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #9484f7;
+  --white-color: #fff;
+  --text-base: #282c41;
+  --text-base-700: #5b628a;
+  --disabled-color: #5b628a;
+
+  --bg-base: #e9eaf2;
+  --bg-white: #fff;
+  --bg-light: rgba(148, 132, 247, 0.08);
+  --bg-grey: rgba(146, 151, 183, 0.16);
+
+  --border-grey: rgba(146, 151, 183, 0.24);
+
+
+  &.dark {
+    --primary-color: #9484f7;
+    --text-base: #fff;
+    --text-base-700: #adb6e7;
+
+    --bg-base: #25293c;
+    --bg-white: #1c1e2d;
+    --bg-light: #282c41;
+  }
+}
+

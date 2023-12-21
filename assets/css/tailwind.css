@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'AvenirArabic';
+    src: url('../fonts/AvenirArabic-Book.otf');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'AvenirArabic';
+    src: url('../fonts/AvenirArabic-Medium.otf');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'AvenirArabic';
+    src: url('../fonts/AvenirArabic-Heavy.otf');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'AvenirArabic';
+    src: url('../fonts/AvenirArabic-Light.otf');
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: 'AvenirArabic';
+    src: url('../fonts/AvenirArabic-Black.otf');
+    font-weight: 900;
+  }
+  /* English Font Inter */
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.ttf');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.ttf');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.ttf');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.ttf');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Black.ttf');
+    font-weight: 900;
+  }
+}
+
+* {
+  font-family: 'Inter', 'AvenirArabic';
+}

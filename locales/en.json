@@ -1,0 +1,15 @@
+{
+  "languages": {
+    "en": "English",
+    "ar": "Arabic"
+  },
+  "sessions": {
+    "title": "Upcoming Sessions",
+    "today": "Today",
+    "emptyMessage": "You have <strong>no upcoming sessions</strong> - start sharing a conversation with a mentor."
+  },
+  "buttons": {
+    "join": "Join",
+    "dismiss": "Dismiss"
+  }
+}
